@@ -1,0 +1,23 @@
+# TODO
+
+-------------------------------------< Database >-----------------------------------------------------                                                              
+1 - Table User :-                                                                   (Done)            
+    *- id_user          int AI -> PRAIMARY KEY ---0                                 (Done)
+    *- name             text                                                        (Done)
+    *- phone            text                                                        (Done)
+    *- address          text                                                        (Done) 
+    *- email            text                                                        (Done)
+    *- password         text                                                        (Done)
+
+2 - booking :-                                                                      (Done)
+    *- id_booking       int       AI -> PRAIMARY KEY ---0                           (Done)
+    *- data_booking     Data&Time                                                   (Done)
+    *- dep_booking      text                                                        (Done)
+    *- id_user_booking  int             FORGIN KEY -> link table users (id_user)    (Done)
+
+------------------------------------< Registeration >-------------------------------------------------- 
+1 - Configration Database                                                           (Done) 
+2 - send Data To server and save this data to varibils                              (Done)
+3 - send the data From form To Database and check if the email is token or not      ()
+4 - Insert and select data from Database                                            ()
+
